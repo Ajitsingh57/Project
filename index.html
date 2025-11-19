@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Number Converter</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
       <div class="box">
         <h2>Number Converter</h2>
 
-        <input type="text" id="inputNumber" placeholder="Enter number">
-
+        
         <div class="row">
             <select id="fromBase">
                 <option value="10">Decimal</option>
@@ -19,9 +18,10 @@
                 <option value="8">Octal</option>
                 <option value="16">Hexadecimal</option>
             </select>
-
-            <button id="swapBtn">↔</button>
-
+            
+            <input type="text" id="inputNumber" placeholder="Enter number">
+            <button id="swapBtn">&#8657;&#8659;</button>
+            
             <select id="toBase">
                 <option value="2">Binary</option>
                 <option value="8">Octal</option>
@@ -31,7 +31,7 @@
         </div>
 
         <div class="result">
-            <p><b>Output:</b> <span id="output"></span></p>
+            <p> <span id="output"></span></p>
         </div>
     </div>
     <script src="js/index.js"></script>

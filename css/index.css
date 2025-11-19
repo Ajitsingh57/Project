@@ -31,12 +31,13 @@ body {
 }
 
 .box input,.box select {
-    width: 100%;
+    width: 40%;
     padding: 8px;
     border-radius: 10px;
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.4);
+    text-align: center;
    
     font-size: 15px;
 }
@@ -46,6 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
 }
 
 .row select {
@@ -58,6 +60,10 @@ body {
     font-size: 20px;
     padding: 5px;
     margin: 0 5px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.4);
     cursor: pointer;
 }
 
